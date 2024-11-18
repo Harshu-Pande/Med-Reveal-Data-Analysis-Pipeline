@@ -10,10 +10,11 @@ The data ingestion begins by identifying URLs of price transparency files provid
 - **United Healthcare (UHC)**  
 - **Cigna**  
 - **Aetna**
-
-For this example, I will be using **Aetna's** insurance plan for Texas which can be found at the url `https://health1.aetna.com/app/public/#/one/insurerCode=AETNACVS_I&brandCode=ALICFI/machine-readable-transparency-in-coverage`
 ---
 
+For this example, I will be using **Aetna's** insurance plan for Texas which can be found at the url `https://health1.aetna.com/app/public/#/one/insurerCode=AETNACVS_I&brandCode=ALICFI/machine-readable-transparency-in-coverage`
+
+---
 ### **JSON to CSV Conversion**
 These URLs link to gzipped JSON files containing pricing data for specific insurance plans. These files are processed using a custom JSON parser that converts the data into CSV files with a predefined schema.
 
