@@ -11,6 +11,7 @@ The data ingestion begins by identifying URLs of price transparency files provid
 - **Cigna**  
 - **Aetna**
 
+For this example, I will be using **Aetna's** insurance plan for Texas which can be found at the url `https://health1.aetna.com/app/public/#/one/insurerCode=AETNACVS_I&brandCode=ALICFI/machine-readable-transparency-in-coverage`
 ---
 
 ### **JSON to CSV Conversion**
